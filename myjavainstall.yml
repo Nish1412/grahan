@@ -10,7 +10,7 @@
     when: ansible_os_family=="Debian"
 
 
-  - name: i want to install java 8 on ubuntu node 
+  - name: i want to install java 11 on redhat node 
     yum: 
             name: "{{myjavainstallforredhat}}"
             state: present
