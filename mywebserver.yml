@@ -6,6 +6,7 @@
           apt: 
                 name: "{{mywebserveronubuntu}}"
                 state: present 
+          when: ansible_os_family=="Debian" 
 
         - name: i want to start/stop  webserver on ubuntu 
           service: 
