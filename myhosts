@@ -10,4 +10,11 @@
 
 [Networkserver]
 172.31.41.17
-172.31.41.18
+172.31.41.18 
+ 
+[webserverhost:vars]
+mywebserveronubuntu = apache2
+mywebserverforredhat = httpd 
+myjavainstallforubuntu = 8-openjdkjre
+myjavainstallforredhat = java-1.8.0-openjdk
+
